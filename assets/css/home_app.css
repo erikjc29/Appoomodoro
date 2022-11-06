@@ -1,0 +1,70 @@
+#container{
+    border:1px solid #333;
+    border-radius :20px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background : rgba(48, 54, 54, 0.7);
+
+  }
+  
+  #timer{ 
+    background-image: url("https://yonodesperdicio.org/wp-content/uploads/2021/07/Toamte-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: inherit;
+    color:black; 
+    font-size:50px; 
+    margin:10px auto;
+    /* border : 5px solid black; */
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+  
+
+  }
+  
+  #time{
+    margin-top:130px;
+    width: auto;
+  }
+  
+  #filler{
+    background : rgba(109, 158, 111, 0.5);
+    height: 0px;
+    width: 300px;
+    position:absolute;
+    bottom:0;
+  }
+  .buttons-cont{
+    background-color: #fffcfb;
+    border-radius:15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  #buttons button { 
+    background:#4da6ff; 
+    border:none; 
+    color:black; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+    font-weight: bold;
+    
+  }
+  #buttons button:hover{
+    transform:scale(1.10);
+    
+  }  
+
+  
